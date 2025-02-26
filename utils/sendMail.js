@@ -21,7 +21,7 @@ module.exports = async (email, subject, text) => {
       text: text
     })
 
-    console.log("Mmail sent")
+    console.log("Mail sent")
 
   } catch (err) {
     console.log('Mail could not be sent', err)
